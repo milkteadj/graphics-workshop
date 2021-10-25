@@ -20,6 +20,7 @@ vec3 illuminate(vec3 lightPosition) {
     vec3 result = ks * pow(max(dot(wo, r), 0.0), shininess);
     vec3 specular = result; // Change me! //changed
 
+//changed!! x2
 
     return intensity * (diffuse + specular);
     
